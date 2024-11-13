@@ -12,7 +12,7 @@ const fontFamiliesType = ['Arial', 'Arial Black', 'Arial Narrow', 'Arial Rounded
   'Helvetica Neue', 'Impact', 'Lucida Sans Unicode', 'Lato', 'Lucida Grande', 'Lucida Bright', 'Monaco', 'Optima', 'Papyrus',
   'PT Mono', 'Palatino', 'Perpetua', 'Rockwell', 'Roboto', 'Rockwell Extra Bold', 'Segoe UI', 'Tahoma', 'Times New Roman', 'Trebuchet MS', 'Verdana',
 ];
-class FontFamilyTool {
+class FontFamily {
    
    static title = 'Font Family';
    isDropDownOpen = false;
@@ -199,4 +199,5 @@ class FontFamilyTool {
     return icon;
   }
 }
-module.exports = FontFamilyTool;
+module.exports = FontFamily; 
+
