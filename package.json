@@ -1,6 +1,6 @@
 {
-    "name": "editorjs-inline-font-family-tool",
-    "version": "1.0.4",
+    "name": "editorjs-inline-font-tool",
+    "version": "0.0.1",
     "keywords": [
       "codex editor",
       "font-family",
@@ -10,7 +10,7 @@
     ],
     "description": "Inline tool to change font family for Editor.js",
     "license": "MIT",
-    "repository": "https://github.com/arwazjamal/editorjs-inline-font-family",
+    "repository": "https://github.com/kenny-marcante/editorjs-inline-font-family.git",
     "main": "./dist/bundle.js",
     "scripts": {
       "build": "webpack --mode production",
