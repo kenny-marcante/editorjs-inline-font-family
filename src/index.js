@@ -68,7 +68,6 @@ class FontFamilyTool {
     const displaySelectedFontFamily = document.createElement('div');
     displaySelectedFontFamily.classList.add('selected-font-family')
     displaySelectedFontFamily.setAttribute('id', this.fontFamilyDropDown);
-    displaySelectedFontFamily.innerHTML = this.emptyString;
     this.buttonWrapperText.append(displaySelectedFontFamily);
     this.nodes.button.append(this.buttonWrapperText);
   }
